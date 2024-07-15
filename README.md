@@ -53,7 +53,7 @@ O Forum Hub permite que o usuário tenha acesso, cadastre, edite e exclua regist
 - Validation
 - Spring Security
 - Java JWT 4.4.0
-- OpenAPI 2.6.0
+- Springdoc OpenAPI Swagger 2.6.0
 ---
 > #### Versão Atual: 1.0
 &nbsp;

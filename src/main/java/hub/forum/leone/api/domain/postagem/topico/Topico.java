@@ -2,7 +2,6 @@ package hub.forum.leone.api.domain.postagem.topico;
 
 import hub.forum.leone.api.domain.autor.Autor;
 import hub.forum.leone.api.domain.postagem.Curso;
-import hub.forum.leone.api.domain.postagem.resposta.Resposta;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -10,7 +9,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Table(name = "topicos")
 @Entity(name = "Topico")
@@ -31,9 +29,6 @@ public class Topico {
     private Autor autor;
     @Enumerated(EnumType.STRING)
     private Curso curso;
-    @OneToMany(mappedBy = "topico", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Resposta> respostas;
-
 
     public Topico(DadosCriacaoTopico dados, Autor autor) {
         this.titulo = dados.titulo();
