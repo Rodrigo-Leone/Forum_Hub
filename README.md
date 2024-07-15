@@ -58,6 +58,7 @@ O Forum Hub permite que o usuário tenha acesso, cadastre, edite e exclua regist
 > #### Versão Atual: 1.0
 &nbsp;
 Na versão 1.0, a aplicacação foi `finalizada` e `entregue`.
+
 ---
 > ### * Créditos *
 Baseado em orientação da [Alura](https://www.alura.com.br/) e seus `professores`.
